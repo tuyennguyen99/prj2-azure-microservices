@@ -1,0 +1,221 @@
+data:
+  FUNCTIONS_EXTENSION_VERSION: fjQ=
+  FUNCTIONS_WORKER_RUNTIME: cHl0aG9u
+  APPINSIGHTS_INSTRUMENTATIONKEY: MWFiMjliYmEtNmQzNS00YWVhLWE0NWUtZTNiMGFjNTAxNzI1
+  APPLICATIONINSIGHTS_CONNECTION_STRING: SW5zdHJ1bWVudGF0aW9uS2V5PTFhYjI5YmJhLTZkMzUtNGFlYS1hNDVlLWUzYjBhYzUwMTcyNTtJbmdlc3Rpb25FbmRwb2ludD1odHRwczovL2Vhc3Rhc2lhLTAuaW4uYXBwbGljYXRpb25pbnNpZ2h0cy5henVyZS5jb20vO0xpdmVFbmRwb2ludD1odHRwczovL2Vhc3Rhc2lhLmxpdmVkaWFnbm9zdGljcy5tb25pdG9yLmF6dXJlLmNvbS8=
+  AzureWebJobsStorage: RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPXVkYWNpdHlmdW5jYTdhMztBY2NvdW50S2V5PW9ZWUdLVFlFYmxEb2hrSXVHTGovdldvL1dxTFBuSEVQb2VvMHFxcDI1K1orSy82OVJoZlN4MTZBc1o5K0prU1FPeWxiRU4rWmpsV1UrQVN0bjZKVDdRPT07RW5kcG9pbnRTdWZmaXg9Y29yZS53aW5kb3dzLm5ldA==
+  WEBSITE_CONTENTAZUREFILECONNECTIONSTRING: RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPXVkYWNpdHlmdW5jYTdhMztBY2NvdW50S2V5PW9ZWUdLVFlFYmxEb2hrSXVHTGovdldvL1dxTFBuSEVQb2VvMHFxcDI1K1orSy82OVJoZlN4MTZBc1o5K0prU1FPeWxiRU4rWmpsV1UrQVN0bjZKVDdRPT07RW5kcG9pbnRTdWZmaXg9Y29yZS53aW5kb3dzLm5ldA==
+  WEBSITE_CONTENTSHARE: cHJqMi1mdW5jMDI5YzE1
+  CosmosMongoDBConnection: bW9uZ29kYjovL3ByajJhZG1pbjpmM3BxYjdzcG9haHMyOVJwT0ZxTXhsZXNSTHJjT2FPUlhUcTdRMzFlMFlWUVFMeFFaYlFNQTR1aExGREJuSmNDaGZzOG5kcGZnZmdQQUNEYjZuUDV6UT09QHByajJhZG1pbi5tb25nby5jb3Ntb3MuYXp1cmUuY29tOjEwMjU1Lz9zc2w9dHJ1ZSZyZXBsaWNhU2V0PWdsb2JhbGRiJnJldHJ5d3JpdGVzPWZhbHNlJm1heElkbGVUaW1lTVM9MTIwMDAwJmFwcE5hbWU9QHByajJhZG1pbkA=
+  EventHubConnectionString: RW5kcG9pbnQ9c2I6Ly9wcmoyLWV2ZW50aHViMDEuc2VydmljZWJ1cy53aW5kb3dzLm5ldC87U2hhcmVkQWNjZXNzS2V5TmFtZT1Sb290TWFuYWdlU2hhcmVkQWNjZXNzS2V5O1NoYXJlZEFjY2Vzc0tleT1jUkc1WWJrRHRMbEZzRHFDZHNYWXRjR21jd3FyK0tWNi8rQUVoQW0zQTBJPQ==
+  EventHubName: cHJqMi1ldmVudGh1YjAx
+apiVersion: v1
+kind: Secret
+metadata:
+  name: prj2-func02
+---
+data:
+  host.master: eGVySF9hb2FpQ0o4SFdGV1NpbjlSVmR4aHBhdlpWM2V0LVVsZGZ5OXFqTmJBekZ1Rm5lUTRnPT0=
+  host.function.default: cno5YTBFU281TWhBcW1jNFJGbTJ6clJmeGR2dXBILS13MmZPcmdwQmxQMTJBekZ1Rnkxb3R3PT0=
+  host.systemKey.default: T01VN25OVjZYY3ZFUTJUektFYzNyMXFZS2ROaFpxZ3BHc1BBSjVibHRPcVJBekZ1QU1HZ0xRPT0=
+  functions.deleteadvertisement.default: SlViNElBaEJlWUJoQmlreEx2T2pncnNXai1tZXByTzA3OUlvdk1RQTNsQXBBekZ1a0lsUVdBPT0=
+  functions.createpost.default: NDk4NVlPeXhJYVVrVGJDQ2ZBMU9ZS19aSktoTS10MTFDZnVIcktBdzM2VHpBekZ1T3VISHZnPT0=
+  functions.getpost.default: QVdxSGtCdmlvYkFheWgyTWVpdDFNVEY0c3JxZ1h1cnpQc2pFYXl2V1JGTGhBekZ1OUxwMFhBPT0=
+  functions.updatepost.default: Vm1HMXdFOUo0ejh6VDR1dzdzRzFIZDJXUV9NWURfWEFxcWUwVElWOXFydVlBekZ1UmJYeG5RPT0=
+  functions.getadvertisement.default: TlhyT1JjNF94ZHdnR2d6MmVyaUlJZWRHc3N5VW5nVFJDNkM1VkFseE5oTThBekZ1RzJCVlBRPT0=
+  functions.createadvertisement.default: VW1IS0k0Zy1KajYtempIRlZIemxPeWdwcTNvMUVMTFRqX3YyU2U5bVlvVjlBekZ1aFhQX1hRPT0=
+  functions.getadvertisements.default: d3lPazZLcUM2V2JUZU1GSG9Rd0ZoeW95VlFObm9ITFRlZl9DSmJQa2x1dDlBekZ1cnNIQTJRPT0=
+  functions.updateadvertisement.default: Y0F0bXAtRE5xeUZocHg5aDNibkYyTXBBX3lkVlJfX3ZoRGc0SV9wM3JTd2VBekZ1MFF5SEVnPT0=
+  functions.deletepost.default: MGp3UTlnZmpYOFZkeXctTlBKbTF3UzE3YVl3enhqM1c0SXpyanJ0QzN5TUVBekZ1cjhHczl3PT0=
+  functions.getposts.default: aEZhZ1BodE9UeHlBVmFNS3JuN2dDYUxHbkN4RnMtRW9zSUt1dnRrTEhPa1pBekZ1QzdWMjVBPT0=
+apiVersion: v1
+kind: Secret
+metadata:
+  name: func-keys-kube-secret-prj2-func02
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: prj2-func02-function-keys-identity-svc-act
+---
+rules:
+- apiGroups:
+  - ''
+  resources:
+  - secrets
+  - configMaps
+  verbs:
+  - get
+  - list
+  - watch
+  - create
+  - update
+  - patch
+  - delete
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: functions-keys-manager-role
+---
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: Role
+  name: functions-keys-manager-role
+subjects:
+- kind: ServiceAccount
+  name: prj2-func02-function-keys-identity-svc-act
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: prj2-func02-function-keys-identity-svc-act-functions-keys-manager-rolebinding
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: prj2-func02-http
+spec:
+  selector:
+    app: prj2-func02-http
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 80
+  type: LoadBalancer
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: prj2-func02-http
+  labels:
+    app: prj2-func02-http
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: prj2-func02-http
+  template:
+    metadata:
+      labels:
+        app: prj2-func02-http
+    spec:
+      containers:
+      - name: prj2-func02-http
+        image: prj2registry.azurecr.io/prj2-func02:latest
+        ports:
+        - containerPort: 80
+        env:
+        - name: AzureFunctionsJobHost__functions__0
+          value: deleteAdvertisement
+        - name: AzureFunctionsJobHost__functions__1
+          value: createPost
+        - name: AzureFunctionsJobHost__functions__2
+          value: getPost
+        - name: AzureFunctionsJobHost__functions__3
+          value: updatePost
+        - name: AzureFunctionsJobHost__functions__4
+          value: getAdvertisement
+        - name: AzureFunctionsJobHost__functions__5
+          value: createAdvertisement
+        - name: AzureFunctionsJobHost__functions__6
+          value: getAdvertisements
+        - name: AzureFunctionsJobHost__functions__7
+          value: updateAdvertisement
+        - name: AzureFunctionsJobHost__functions__8
+          value: deletePost
+        - name: AzureFunctionsJobHost__functions__9
+          value: getPosts
+        - name: AzureWebJobsSecretStorageType
+          value: kubernetes
+        - name: AzureWebJobsKubernetesSecretName
+          value: secrets/func-keys-kube-secret-prj2-func02
+        envFrom:
+        - secretRef:
+            name: prj2-func02
+        readinessProbe:
+          failureThreshold: 3
+          periodSeconds: 10
+          successThreshold: 1
+          timeoutSeconds: 240
+          httpGet:
+            path: /
+            port: 80
+            scheme: HTTP
+        startupProbe:
+          failureThreshold: 3
+          periodSeconds: 10
+          successThreshold: 1
+          timeoutSeconds: 240
+          httpGet:
+            path: /
+            port: 80
+            scheme: HTTP
+      serviceAccountName: prj2-func02-function-keys-identity-svc-act
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: prj2-func02
+  labels:
+    app: prj2-func02
+spec:
+  selector:
+    matchLabels:
+      app: prj2-func02
+  template:
+    metadata:
+      labels:
+        app: prj2-func02
+    spec:
+      containers:
+      - name: prj2-func02
+        image: prj2registry.azurecr.io/prj2-func02:latest
+        env:
+        - name: AzureFunctionsJobHost__functions__0
+          value: eventHubTrigger
+        - name: AzureFunctionsJobHost__functions__1
+          value: eventGridTrigger
+        envFrom:
+        - secretRef:
+            name: prj2-func02
+        readinessProbe:
+          failureThreshold: 3
+          periodSeconds: 10
+          successThreshold: 1
+          timeoutSeconds: 240
+          httpGet:
+            path: /
+            port: 80
+            scheme: HTTP
+        startupProbe:
+          failureThreshold: 3
+          periodSeconds: 10
+          successThreshold: 1
+          timeoutSeconds: 240
+          httpGet:
+            path: /
+            port: 80
+            scheme: HTTP
+      serviceAccountName: prj2-func02-function-keys-identity-svc-act
+---
+apiVersion: keda.sh/v1alpha1
+kind: ScaledObject
+metadata:
+  name: prj2-func02
+  labels: {}
+spec:
+  scaleTargetRef:
+    name: prj2-func02
+  triggers:
+  - type: azure-eventhub
+    metadata:
+      direction: in
+      eventHubName: prj2-eventhub01
+      cardinality: many
+      consumerGroup: $Default
+      dataType: binary
+      connectionFromEnv: EventHubConnectionString
+  - type: eventgridtrigger
+    metadata:
+      direction: in
+---
+
